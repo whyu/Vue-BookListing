@@ -3,7 +3,7 @@
   <div>
     <h1>{{ title }}</h1>
     <ul>
-      <li v-for="(book, index) in books" :key="`book-${index}`">{{book.title}}: {{book.author}}</li>
+      <li v-for="book in books">{{book.title}}: {{book.author}}</li>
     </ul>
   </div>
   
