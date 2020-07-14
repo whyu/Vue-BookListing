@@ -9,19 +9,15 @@
 <script>
 export default {
   name: 'BookList',
-  data: function() {
-    return { 'title': 'All Books' }
+  data() {
+    return { 'title': 'All Books' };
   }
 }
 </script>
 
 <style>
 
-h1 {
-  font-weight: normal;
-}
-
-h2 {
+h1, h2 {
   font-weight: normal;
 }
 
